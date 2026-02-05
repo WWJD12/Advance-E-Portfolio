@@ -267,29 +267,30 @@ nav {
      MODAL
      
      */
+     
      .modal {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 90%;
-        max-width: 1100px;
-        height: 700px;
-        box-shadow: 0 20px 80px 0 rgb(0, 0, 0, 0.55);
-        border-radius: 20px;
-        overflow: hidden;
-        display: flex;
-     }
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  max-width: 1000px;  
+  height: 600px;       
+  max-height: 90vh;    
+  box-shadow: 0 20px 80px 0 rgb(0, 0, 0, 0.55);
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+}
 
      .modal__half {
+        position: relative;
         width: 50%;
         padding: 40px 72px;
          display: flex;
          flex-direction: column;
          justify-content: center;
-         position: relative;
-
-     }
+    }
 
      .modal__about {
         background-color: rgb(245, 245, 245);
