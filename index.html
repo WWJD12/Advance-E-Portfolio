@@ -114,37 +114,56 @@
                         <label class="form__item--label">Message</label>
                         <textarea class="input" name="message" type="text" required></textarea>
                     </div>
+                    <button id="contact__submit" class="form__submit">Send it my way</button>
                 </form>
+                <div class="modal__overlay modal__overlay--loading">
+                    <i class="fas fa-spinner"></i>
+                </div>
+                <div class="modal__overlay modal__overlay--success">
+                    Thanks for the message! Looking forward to speaking to you soon.
+                </div>
             </div>
+            <i class="fas fatimes modal__exit click"></i>
         </div>
     </section>
     <section id="Projects">
      <div class="container">
        <div class="row">
-         <h1 class="section__title">
-            Here are some of my <span class="red">projects</span>
-         </h1>
+         <h1 class="section__title">Here are some of my <span class="red">projects</span></h1>
           <ul class="project__list">
             <li class="project">
+              <div class="project__wrapper">
+                <img src="./assets/blinker mockup.png" class="project__img" alt="">
+                  <div class="project__wrapper--bg"></div>
+                   <div class="project__description">
+                    <h3 class="project__description--title">car sales project</h3>
+                    <h4 class="project__description--sub-title">HTML, CSS, JavaScript, Vue, Vuex</h4>
+                    <p class="project__description--para">Lorm ipsum dolor sit amet, consectetur adipiscing elit. Sed diam leo, scelerisque sed odio eget, luctus fauibus augue. Fusce volutpat laculis dapibus, Lorem ipsum dolor sit armet, consectetur adipiscing elit. Maecenas id eleifend libero. In hac habitasse platea dictumst.</p>
+                    <div class="project__description--links">
+                        <a href="#" class="project__description--link">
+                        <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="#" class="project__description--link">
+                        <i class="fas fa-link"></i>
+                        </a>
+                       </div>
+                      </div>
+                    </div>
+                </li>
+                <li class="project">
                 <div class="project__wrapper">
                   <img src="./assets/blinker mockup.png" class="project__img" alt="">
                   <div class="project__wrapper--bg"></div>
                   <div class="project__description">
-                    <h3 class="project__description--title">
-                        car sales project
-                    </h3>
-                    <h4 class="project__description--sub-title">
-                        HTML, CSS, JavaScript, Vue, Vuex
-                    </h4>
-                    <p class="project__description--para">
-                        Lorm ipsum dolor sit amet, consectetur adipiscing elit. Sed diam leo, scelerisque sed odio eget, luctus fauibus augue. Fusce volutpat laculis dapibus, Lorem ipsum dolor sit armet, consectetur adipiscing elit. Maecenas id eleifend libero. In hac habitasse platea dictumst.
-                    </p>
+                    <h3 class="project__description--title">car sales project</h3>
+                    <h4 class="project__description--sub-title">HTML, CSS, JavaScript, Vue, Vuex</h4>
+                    <p class="project__description--para">Lorm ipsum dolor sit amet, consectetur adipiscing elit. Sed diam leo, scelerisque sed odio eget, luctus fauibus augue. Fusce volutpat laculis dapibus, Lorem ipsum dolor sit armet, consectetur adipiscing elit. Maecenas id eleifend libero. In hac habitasse platea dictumst.</p>
                     <div class="project__description--links">
                         <a href="#" class="project__description--link">
-                          <i class="fa-brands fa-github"></i>
+                        <i class="fa-brands fa-github"></i>
                         </a>
                         <a href="#" class="project__description--link">
-                          <i class="fas fa-link"></i>
+                        <i class="fas fa-link"></i>
                         </a>
                     </div>
                   </div>
@@ -152,54 +171,23 @@
             </li>
             <li class="project">
                 <div class="project__wrapper">
-                  <img src="./assets/blinker mockup.png" class="project__img" alt="">
-                  <div class="project__wrapper--bg"></div>
-                  <div class="project__description">
-                    <h3 class="project__description--title">
-                        car sales project
-                    </h3>
-                    <h4 class="project__description--sub-title">
-                        HTML, CSS, JavaScript, Vue, Vuex
-                    </h4>
-                    <p class="project__description--para">
-                        Lorm ipsum dolor sit amet, consectetur adipiscing elit. Sed diam leo, scelerisque sed odio eget, luctus fauibus augue. Fusce volutpat laculis dapibus, Lorem ipsum dolor sit armet, consectetur adipiscing elit. Maecenas id eleifend libero. In hac habitasse platea dictumst.
-                    </p>
-                    <div class="project__description--links">
-                        <a href="#" class="project__description--link">
-                          <i class="fa-brands fa-github"></i>
-                        </a>
-                        <a href="#" class="project__description--link">
-                          <i class="fas fa-link"></i>
-                        </a>
-                    </div>
-                  </div>
+                <img src="./assets/blinker mockup.png" class="project__img" alt="">
+                <div class="project__wrapper--bg"></div>
+                <div class="project__description">
+                <h3 class="project__description--title">car sales project</h3>
+                <h4 class="project__description--sub-title">HTML, CSS, JavaScript, Vue, Vuex</h4>
+                <p class="project__description--para">Lorm ipsum dolor sit amet, consectetur adipiscing elit. Sed diam leo, scelerisque sed odio eget, luctus fauibus augue. Fusce volutpat laculis dapibus, Lorem ipsum dolor sit armet, consectetur adipiscing elit. Maecenas id eleifend libero. In hac habitasse platea dictumst.</p>
+                <div class="project__description--links">
+                    <a href="#" class="project__description--link">
+                    <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="#" class="project__description--link">
+                    <i class="fas fa-link"></i>
+                    </a>
                 </div>
-            </li>
-            <li class="project">
-                <div class="project__wrapper">
-                  <img src="./assets/blinker mockup.png" class="project__img" alt="">
-                  <div class="project__wrapper--bg"></div>
-                  <div class="project__description">
-                    <h3 class="project__description--title">
-                        car sales project
-                    </h3>
-                    <h4 class="project__description--sub-title">
-                        HTML, CSS, JavaScript, Vue, Vuex
-                    </h4>
-                    <p class="project__description--para">
-                        Lorm ipsum dolor sit amet, consectetur adipiscing elit. Sed diam leo, scelerisque sed odio eget, luctus fauibus augue. Fusce volutpat laculis dapibus, Lorem ipsum dolor sit armet, consectetur adipiscing elit. Maecenas id eleifend libero. In hac habitasse platea dictumst.
-                    </p>
-                    <div class="project__description--links">
-                        <a href="#" class="project__description--link">
-                          <i class="fa-brands fa-github"></i>
-                        </a>
-                        <a href="#" class="project__description--link">
-                          <i class="fas fa-link"></i>
-                        </a>
-                    </div>
-                  </div>
-                </div>
-            </li>
+             </div>
+            </div>
+           </li>
           </ul>
         </div>
       </div>
