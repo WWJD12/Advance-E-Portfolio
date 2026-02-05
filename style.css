@@ -260,7 +260,9 @@ nav {
      }
     .modal__languages {
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
+        width: 100%;
+        gap: 12px;
     }
 
     .modal__language {
@@ -292,6 +294,8 @@ nav {
 
     .modal__language--img {
         width: 100%;
+        max-width: 100px;
+        object-fit: contain;
     }
     
 
