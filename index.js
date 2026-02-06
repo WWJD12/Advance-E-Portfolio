@@ -25,7 +25,13 @@ function contact(event) {
     })
 }
 
+let ismodalOpen = false;
 function toggleModal() {
-    // toggle modal 
-    document.body.classList += " modal__open";
+     if (ismodalOpen) {
+         ismodalOpen = false;
+        return document.body.classList.remove("modal--open");
+       
+    }
+    ismodalOpen = true;
+    document.body.classList += " modal--open";
 }
