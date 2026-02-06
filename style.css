@@ -25,6 +25,7 @@ cursor: pointer;
 
 section {
 background-color: rgb(245, 245, 245);
+transition: all 300ms ease;
 }
 
 input, textarea {
@@ -126,7 +127,7 @@ nav,
 .header {
 opacity: 1;
 visibility: visible;
-transition: all 600ms 800ms;    
+transition: all 600ms 500ms;    
 }
 
 .modal--open nav,
@@ -137,6 +138,36 @@ visibility: hidden;
 transition: all 400ms;    
 }
 
+.dark-theme .title, 
+.dark-theme .section__title,
+.dark-theme .section__sub-title,
+.dark-theme .nav__link--anchor,
+.dark-theme .fa-adjust,
+.dark-theme .header__para {
+color: #fff;
+}
+
+.dark-theme section {
+background-color: #242424;
+}
+
+.dark-theme #personal-logo {
+filter: none;    
+}
+
+.dark-theme .scroll__icon {
+border-color: #ffff;    
+}
+
+.dark-theme .scroll__icon:after,
+.dark-theme .link__hover-effect--black:after {
+background-color:#ffff;    
+}
+
+.dark-theme .mail__btn {
+background-color: #ffff;
+color: #242424;    
+}
 /* 
      
 LANDING PAGE

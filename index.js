@@ -1,7 +1,14 @@
-//template_e0nx6hd
-//service_qrp0o71
-//sf8KrxlWlDkrSqJDS
-
+let ismodalOpen = false;
+let contrastToggle = false;
+function togglecontrast() {
+  contrastToggle = !contrastToggle;
+   if (contrastToggle) {
+   document.body.classList += " dark-theme"; 
+   }
+   else {
+   document.body.classList.remove("dark-theme")
+   }
+}
 
 function contact(event) {
    event.preventDefault();
@@ -25,7 +32,6 @@ function contact(event) {
     })
 }
 
-let ismodalOpen = false;
 function toggleModal() {
      if (ismodalOpen) {
          ismodalOpen = false;
