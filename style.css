@@ -156,7 +156,7 @@ background-color: #242424;
 }
 
 .dark-theme #personal-logo {
-filter: none;    
+filter: invert();
 }
 
 .dark-theme .scroll__icon {
@@ -286,7 +286,7 @@ height: 100px;
 #personal-logo {
 height: 120px;
 width: 120px;
-filter: invert(1);
+
 }
 
 .nav__link--list {
@@ -599,6 +599,9 @@ footer {
 
 .footer__logo--img {
     width: 70px;
+   filter: invert(1);
+ 
+   
 }
 
 .footer__social--list {
